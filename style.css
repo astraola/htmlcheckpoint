@@ -1,0 +1,141 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li{
+    float: left;
+  }
+
+li a {
+    display: inline-block;
+    color: black; color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: roboto;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#home {
+    height: 600px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(23, 139, 154);
+    padding: 5px;
+    font-weight: 70px;
+}
+
+i{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 40px;
+    padding-left: 20px;  
+}
+
+.image {
+ margin-left: 12%;
+}
+
+#about {
+    background-color: blueviolet;
+    height: 700px;
+    padding-top: 50px;
+}
+ 
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 40px;
+    padding-left: 20px;
+}
+
+.main-table{
+    margin-left: 500px;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+th{
+    height: 80px;
+    background-color: cadetblue;
+    width: 150px;
+}
+td{
+    height: 50px;
+    background-color: blue;
+    width: 150px;
+}
+
+#work {
+    background-color: pink;
+    height: 700px;
+    padding-top: 50px;
+}
+
+video {
+    margin-left: 400px;
+}
+
+#contact {
+    height: 600px;
+    background-color: pink;
+}
+
+.form-type{
+   height: 150px;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: ;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2x;
+    cursor: pointer;
+    margin: 4%;
+}
+
+label{
+    margin-left: 3%;
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    height: 75px;
+    background-color: greenyellow;
+    padding-top: 50px;
+}
